@@ -40,7 +40,7 @@ This method of running the govc functional tests mimics how the project's associ
 2. Run the `govc-tests` action:
 
     ```shell
-    act --env USER=user -j govc-tests
+    act --env USER=user -j govc-tests --verbose
     ```
 
     ---
@@ -102,7 +102,11 @@ brew install coreutils findutils
     make govc-test
     ```
 
-    The tests can also be run directly with the `bats` command:
+    The tests can also be run directly with the `bats` command with verbose logging:
+
+```shell
+bats --tap ./govc/test/
+```
 
     ```shell
     bats -t ./govc/test/
