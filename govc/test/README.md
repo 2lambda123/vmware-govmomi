@@ -43,7 +43,10 @@ This method of running the govc functional tests mimics how the project's associ
     act --env USER=user -j govc-tests --verbose
     ```
 
-    ---
+    ### Common Issues and Solutions
+### Issue: -
+
+### Issue: -
 
     **Note**: To run the ESX tests with `act`, execute the following command:
 
@@ -55,7 +58,7 @@ This method of running the govc functional tests mimics how the project's associ
 
 ### Run Tests Natively on Linux and macOS
 
-The fastest way to run the tests is to do so natively on Linux or macOS:
+The fastest way to run the tests locally on Linux or macOS:
 
 1. Install [bats](https://github.com/sstephenson/bats/):
 
